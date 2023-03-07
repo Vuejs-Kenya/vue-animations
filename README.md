@@ -42,7 +42,7 @@ npm install
 npm run dev
 
 ```
-5. Open http://localhost:3000 in your preferred web browser to view the presentation.
+5. Open[ localhost ](http://localhost:5173/) in your preferred web browser to view the presentation.
 
 
 ## Features
