@@ -10,7 +10,7 @@ This presentation covers a variety of animation techniques in VueJS that will ta
 
 👀 Animating with watchers: use watchers to trigger animations based on changes in data properties.
 
-🎬 The <Transition> Component: use Vue.js built-in <transition> component to apply enter/leave transition effects to an element when it is inserted/removed from the DOM.
+🎬 The Transition Component: use Vue.js built-in <transition> component to apply enter/leave transition effects to an element when it is inserted/removed from the DOM.
 
 👥 TransitionGroup: use the Vue.js <transition-group> component to animate a list of items as they are added, removed or moved around on the page.
 
