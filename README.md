@@ -55,3 +55,11 @@ Contributions to this project are welcome. If you find a bug, have a suggestion 
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Resources
+Visit this link to get a Notion page with detailed notes on the topic: http://bit.ly/3YnU1WV
+
+Alternatively, you can scan this QR Code:
+
+<img src="https://user-images.githubusercontent.com/43300544/223380573-1470281c-b8a4-4c8c-bf0d-a5d1bcf34567.png" style="width:300px"/>
+
