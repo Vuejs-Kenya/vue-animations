@@ -14,3 +14,44 @@ This presentation covers a variety of animation techniques in VueJS that will ta
 
 👥 TransitionGroup: use the Vue.js <transition-group> component to animate a list of items as they are added, removed or moved around on the page.
 
+
+## How to Get Started
+To get started with this presentation, follow these steps:
+
+1. Clone the Vue Animations repository to your local machine
+```shell
+
+git clone https://github.com/Brian-Nduhiu/vue-animations.git
+
+```
+2. Navigate to the cloned repository directory
+```shell
+
+cd vue-animations
+
+```
+3. Install the project dependencies
+```shell
+
+npm install
+
+```
+4. Start the development server 
+```sell
+
+npm run dev
+
+```
+5. Open http://localhost:3000 in your preferred web browser to view the presentation.
+
+
+## Features
+* Clear and concise explanation of various animation techniques in VueJS 📚
+* Code examples for each technique to help you implement it in your own projects 💻
+* Easy to follow presentation structure 🧭
+
+## Contributing
+Contributions to this project are welcome. If you find a bug, have a suggestion for improvement, or would like to add a new feature, please create a pull request. Let's make VueJS animations even more exciting and engaging! 🤩
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
