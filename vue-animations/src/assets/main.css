@@ -1,35 +1,47 @@
-@import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* 
+container
+    header
+    centerContent
+        backButton
+        centerDiv
+        nextButton
+    footerNav
+        nav
+            navItem
+*/
 
-  font-weight: normal;
+.header{
+    text-align: center;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
+.centerContent{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "backButton centerDiv nextButton";
+    justify-items: center;
+    align-items: center;
 }
+
+.backButton{
+    grid-area: backButton;
+}
+
+.centerDiv{
+    grid-area: centerDiv;
+}
+
+.nextButton{
+    grid-area: nextButton;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
