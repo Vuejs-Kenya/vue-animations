@@ -1,11 +1,11 @@
 <template>
     <div class="page">
-        <h1>Hi, am Brian Nduhiu</h1>
+        <h1>What we will cover today:</h1>
         <ul>
-            <li>Full stack engineer.</li>
-            <li>Design enthusiast.</li>
-            <li>Innovator and cofounder of Compage(Previously Ionix).</li>
-            <li>Enjoys solving problems and creating value.</li>
+            <li>transition Component</li>
+            <li>transition Groups</li>
+            <li>class Based Animations</li>
+            <li>state Driven Animations</li>
         </ul>
     </div>
 </template>

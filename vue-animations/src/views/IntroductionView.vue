@@ -45,10 +45,12 @@
 import { ref } from 'vue';
 import Slide1 from '../components/introduction/Slide1.vue';
 import Slide2 from '../components/introduction/Slide2.vue';
+import Slide3 from '../components/introduction/Slide3.vue';
 
 const slides = {
   1: Slide1,
-  2: Slide2
+  2: Slide2,
+  3: Slide3
 }
 
 const currentSlide = ref(1);
