@@ -5,19 +5,48 @@ container
     centerContent
         backButton
         centerDiv
+            contentContainer
         nextButton
     footerNav
         nav
             navItem
 */
 
-.header{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+    font-size: 1rem;
+    /* color: #ffffff; */
+}
+.container{
+    background-color: #8d8d8d;
+    /* background-image: url(../assets/images/bg2.png); */
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: "header" "centerContent" "footerNav";
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.header h1{
     text-align: center;
+    font-family: 'Popins', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    
 }
 
 .centerContent{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "backButton centerDiv nextButton";
     justify-items: center;
@@ -26,22 +55,57 @@ container
 
 .backButton{
     grid-area: backButton;
+    font-size: 2rem;
 }
 
 .centerDiv{
     grid-area: centerDiv;
+    background-color: rgba(95, 95, 95, 0.411);
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    border-radius: 50px;
+    
+}
+
+.contentContainer{
+    margin: 2rem;
+
+    
 }
 
 .nextButton{
     grid-area: nextButton;
+    font-size: 2rem;
+}
+
+.footerNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    
 }
 
 .nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
 }
 
-
+li{
+    list-style: none;
+    font-size: 1.5rem;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+}
 
 

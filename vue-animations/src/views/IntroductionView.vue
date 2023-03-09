@@ -4,41 +4,16 @@
     <h1>Vue JS Animation Techniques</h1>
   </div>
   <div class="centerContent">
-    <h1 class="backButton">
+    <h1 class="backButton" @click="prevSlide">
       &lt;
     </h1>
     <div class="centerDiv">
-      <h1>Introduction</h1>
-      <p>
-        This is a collection of animation techniques that can be used in Vue JS. The techniques are based on the Vue JS documentation and the Vue JS community.
-      </p>
-      <p>
-        The techniques are divided into 3 categories:
-      </p>
-      <ul>
-        <li>Transition</li>
-        <li>Animation</li>
-        <li>Transition Group</li>
-      </ul>
-      <p>
-        Each category has a number of techniques that can be used to animate elements in Vue JS.
-      </p>
-      <p>
-        The techniques are based on the Vue JS documentation and the Vue JS community.
-      </p>
-      <p>
-        The techniques are divided into 3 categories:
-      </p>
-      <ul>
-        <li>Transition</li>
-        <li>Animation</li>
-        <li>Transition Group</li>
-      </ul>
-      <p>
-        Each category has a number of techniques that can be used to animate elements in Vue JS.
-      </p>
+      <div class="contentContainer">
+        <component :is="slides[currentSlide]"></component>
+      </div>
+      
     </div>
-    <h1 class="nextButton">
+    <h1 class="nextButton" @click="nextSlide">
       &gt;
     </h1>
   </div>
@@ -64,6 +39,40 @@
   </div>
 </template>
 
-<style>
 
+<script setup>
+
+import { ref } from 'vue';
+import Slide1 from '../components/introduction/Slide1.vue';
+import Slide2 from '../components/introduction/Slide2.vue';
+
+const slides = {
+  1: Slide1,
+  2: Slide2
+}
+
+const currentSlide = ref(1);
+
+const nextSlide = () => {
+  if(currentSlide.value < Object.keys(slides).length){
+    currentSlide.value++;
+  }
+}
+
+const prevSlide = () => {
+  if(currentSlide.value > 1){
+    currentSlide.value--;
+  }
+}
+
+
+</script>
+
+
+
+
+<style scoped>
+.container{
+  background-image: url(../assets/images/bg2.png);
+}
 </style>

@@ -8,35 +8,8 @@
       &lt;
     </h1>
     <div class="centerDiv">
-      <h1>stateDrivenAnimations</h1>
-      <p>
-        This is a collection of animation techniques that can be used in Vue JS. The techniques are based on the Vue JS documentation and the Vue JS community.
-      </p>
-      <p>
-        The techniques are divided into 3 categories:
-      </p>
-      <ul>
-        <li>Transition</li>
-        <li>Animation</li>
-        <li>Transition Group</li>
-      </ul>
-      <p>
-        Each category has a number of techniques that can be used to animate elements in Vue JS.
-      </p>
-      <p>
-        The techniques are based on the Vue JS documentation and the Vue JS community.
-      </p>
-      <p>
-        The techniques are divided into 3 categories:
-      </p>
-      <ul>
-        <li>Transition</li>
-        <li>Animation</li>
-        <li>Transition Group</li>
-      </ul>
-      <p>
-        Each category has a number of techniques that can be used to animate elements in Vue JS.
-      </p>
+      <div class="contentContainer">
+      </div>
     </div>
     <h1 class="nextButton">
       &gt;
@@ -64,7 +37,9 @@
   </div>
   </template>
   
-  <style>
-  
+  <style scoped>
+  .container{
+  background-image: url(../assets/images/bg5.png);
+}
   </style>
   
