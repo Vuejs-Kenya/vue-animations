@@ -21,7 +21,7 @@ To get started with this presentation, follow these steps:
 1. Clone the Vue Animations repository to your local machine
 ```shell
 
-git clone https://github.com/Brian-Nduhiu/vue-animations.git
+git clone https://github.com/Vuejs-Kenya/vue-animations.git
 
 ```
 2. Navigate to the cloned repository directory
